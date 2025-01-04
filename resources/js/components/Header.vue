@@ -6,7 +6,7 @@
                 <div
                     :class="{
                         'text-teal-400': isActive('/about'),
-                        'text-white': !isActive('/about')
+                        'text-gray-400': !isActive('/about')
                     }"
                 >
                     <router-link to="/about">About</router-link>
@@ -71,7 +71,7 @@ import { useRoute } from 'vue-router';
 export default {
     setup() {
         const route = useRoute();
-        const isActive = (path) => route.path === path;
+        const isActive = (path) => route.path === path || (path === '/about' && route.path === '/');
 
         return { isActive };
     },
