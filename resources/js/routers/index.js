@@ -3,8 +3,6 @@ import TopPage from "../components/TopPage.vue";
 import Education from "../components/Education.vue";
 import Portfolio from "../components/Portfolio.vue";
 import Awards from "../components/Awards.vue";
-import Contacts from "../components/Contacts.vue";
-import TestComponent from "../components/TestComponent.vue";
 
 const routes = [
     {
