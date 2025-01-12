@@ -62,7 +62,7 @@
                     </div>
                     <div class="flex flex-row gap-2 items-center">
                         <img src="github.svg" alt="github" class="w-7">
-                        <div class="text-white">@username</div>
+                        <div class="text-white">@usernam</div>
                     </div>
                 </div>
             </div>
